@@ -3,21 +3,17 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="container">
+        <p className="title">
+        hi! my name is emily lin.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p className="description">
+        I’m a third year software engineering student at the University of Waterloo.
+        Previously, I’ve worked as a software engineer at RBC and TD innovation labs. I’m passionate about mobile and web dev, and I’m hoping to gain some experience in the AR/VR space.
+        <br></br><br></br>
+        I spend a lot of my free time working as co-pres of the UW Acabellas and as a backend developer for Develop for Good. 
+        My other hobbies include badminton, violin, hula hooping, shopping, binging tv shows, and playing the mouth trumpet.
+        </p>
     </div>
   );
 }
