@@ -49,7 +49,7 @@ function LandingPage() {
             <a href="https://open.spotify.com/user/222vgpvjtzhjrowfbxcniupja?si=42a3e5fea3c34d64">
               <div className="social-media-icon" id="spotify" />
             </a>
-            <a href="">
+            <a href="http://localhost:3000/resume.pdf">
               <div className="social-media-icon" id="resume" />
             </a>
           </div>
