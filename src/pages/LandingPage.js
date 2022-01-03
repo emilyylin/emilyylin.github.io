@@ -3,17 +3,22 @@ import ProfilePicBorder from "../assets/profile-pics/pfp-border-1.svg";
 
 import "../styles/LandingPage.css";
 
-function blue() {}
-
-function orange() {}
 function LandingPage() {
   return (
     <div className="container">
       <div className="floating-box">
         <div className="left-column">
           <div className="profile-stack">
-            <img className="pfp-border" src={ProfilePicBorder} />
-            <img className="pfp-picture" src={ProfilePic} />
+            <img
+              className="pfp-border"
+              src={ProfilePicBorder}
+              alt="pfp border"
+            />
+            <img
+              className="pfp-picture"
+              src={ProfilePic}
+              alt="this is supposed to be a picture of me"
+            />
           </div>
         </div>
         <div className="right-column">
